@@ -26,14 +26,14 @@
 p{
     color: var(--Navy-200);
 }
-h1,h2,button.active,button:hover,span{
-    color: white;
-}
 button{
     border: none;
     background-color: inherit;
     font-size: 1.2rem;
     color: var(--Purple-500);
+}
+h1,h2,button.active,button:hover,span{
+    color: white;
 }
 button:hover{
     cursor: pointer;
@@ -50,7 +50,7 @@ h2{
 }
 body{
     background-color: var(--Navy-950);
-    font-family: 'Rubik';
+    font-family: 'Rubik',sans-serif;
 }
 main{
     display: grid;

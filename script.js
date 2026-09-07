@@ -13,7 +13,7 @@ const addToDom = (data) => {
         <h2>${data.title}</h2>
         <button type="button"><img src="./images/icon-ellipsis.svg" alt="icon ellipsis"></button>
         <span>${timeframes[activeBtnText.toLowerCase()].current} hrs</span>
-        <p>Last ${activeBtnText == "weekly" ? "Week" : activeBtnText == "daily" ? "Day" : "Month"} - ${timeframes[activeBtnText.toLowerCase()].previous}hrs</p>
+        <p>Last ${activeBtnText === "weekly" ? "Week" : activeBtnText === "daily" ? "Day" : "Month"} - ${timeframes[activeBtnText.toLowerCase()].previous}hrs</p>
         <img src="./images/icon-${titleLowerCase}.svg" alt="">
     `;
     ulDiv.appendChild(liDiv);
